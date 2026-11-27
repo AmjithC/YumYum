@@ -1,0 +1,85 @@
+import 'food_item.dart';
+
+const sampleFoods = [
+  FoodItem(
+    id: -1,
+    name: 'Classic Beef Burger',
+    description:
+        'Juicy grilled beef, fresh lettuce and tomato in a toasted bun.',
+    price: 22,
+    restaurantName: 'Burger House',
+    restaurantId: 1,
+    imageUrl: 'assets/recommend 1.png',
+  ),
+  FoodItem(
+    id: -2,
+    name: 'Salmon Sushi',
+    description: 'Fresh salmon rolls served with ginger and soy.',
+    price: 18,
+    restaurantName: 'Sushi Wave',
+    restaurantId: 2,
+    imageUrl: 'assets/best seller 1.png',
+  ),
+  FoodItem(
+    id: -3,
+    name: 'Chicken Rice Bowl',
+    description: 'Tender chicken with fragrant rice and garden herbs.',
+    price: 16,
+    restaurantName: 'Urban Kitchen',
+    restaurantId: 3,
+    imageUrl: 'assets/best seller 2.png',
+  ),
+  FoodItem(
+    id: -4,
+    name: 'Garden Lasagna',
+    description: 'Layers of pasta, vegetables and creamy melted cheese.',
+    price: 20,
+    restaurantName: 'The Italian Table',
+    restaurantId: 4,
+    imageUrl: 'assets/best seller 3.png',
+  ),
+  FoodItem(
+    id: -5,
+    name: 'Chocolate Berry Cupcake',
+    description: 'A rich chocolate cupcake finished with fresh berries.',
+    price: 9,
+    restaurantName: 'Sweet Corner',
+    restaurantId: 5,
+    imageUrl: 'assets/best seller 4.png',
+  ),
+  FoodItem(
+    id: -6,
+    name: 'Margherita Pizza',
+    description: 'Stone-baked pizza with basil, mozzarella and tomato.',
+    price: 24,
+    restaurantName: 'Pizzeria Napoli',
+    restaurantId: 6,
+    imageUrl: 'assets/Rectangle 145.png',
+  ),
+  FoodItem(
+    id: -7,
+    name: 'Fresh Spring Rolls',
+    description: 'Crisp vegetables wrapped fresh with a savory dipping sauce.',
+    price: 13,
+    restaurantName: 'Green Garden',
+    restaurantId: 7,
+    imageUrl: 'assets/recommend 2.png',
+  ),
+  FoodItem(
+    id: -8,
+    name: 'Caramel Latte',
+    description: 'Smooth espresso with steamed milk and caramel.',
+    price: 8,
+    restaurantName: 'Daily Grind',
+    restaurantId: 8,
+    imageUrl: 'assets/Rectangle 147.png',
+  ),
+];
+
+const foodCategories = [
+  ('Meals', 'assets/Meals.png'),
+  ('Vegan', 'assets/Vegan.png'),
+  ('Snacks', 'assets/Snacks.png'),
+  ('Drinks', 'assets/Drinks.png'),
+  ('Desserts', 'assets/Desserts.png'),
+];
